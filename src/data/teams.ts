@@ -1,6 +1,5 @@
 const teams = {
   Mechanical: [
-
     {
       name: 'Sree Chaitanya Anisingaraju',
       subdivision: 'Chassis',
@@ -34,7 +33,6 @@ const teams = {
   ],
 
   Electrical: [
-
     {
       name: 'S.J. Yatish',
       subdivision: 'Communication',
@@ -82,9 +80,7 @@ const teams = {
       subdivision: 'Electrical',
     },
   ],
-
   Arm: [
-
     {
       name: 'Chirayu',
       subdivision: 'CS and AI',
@@ -110,7 +106,7 @@ const teams = {
       subdivision: 'Mechanical',
     },
   ],
-  'CS and AI': [
+  CS and AI: [
     {
       name: 'Adithya Nair',
       subdivision: 'Automation',
@@ -150,22 +146,6 @@ const teams = {
       name: 'Ekansh',
       subdivision: 'Navigation',
     },
-
-    {
-      name: 'Rtamanyu',
-      subdivision: 'CS and AI - Science',
-    },
-
-    {
-      name: 'Atharv',
-      subdivision: 'CS and AI - Science',
-    },
-
-    {
-      name: 'Praneeth',
-      subdivision: 'CS and AI - Science',
-    },
-
     {
       name: 'Vardhan',
       role: 'Project Manager',
@@ -177,7 +157,6 @@ const teams = {
       role: 'Project Manager',
       subdivision: 'CS and AI',
     },
-
   ],
   Media: [
     {
@@ -194,7 +173,6 @@ const teams = {
     },
   ],
   Science: [
-    
     {
       name: 'Atharv',
       subdivision: 'Research',
@@ -232,14 +210,14 @@ const teams = {
   Mentors: [
     {
       name: 'Nippun Kumar A A',
-      role: 'Mentor'
-    }
+      role: 'Mentor',
+    },
   ],
 
   TeamLead: [
     {
-      name: "Andrew Tom",
-      role: 'Team Lead'
+      name: 'Andrew Tom',
+      role: 'Team Lead',
     },
 
     {
@@ -259,11 +237,11 @@ const teams = {
       role: 'Team Lead',
       subdivision: 'CS and AI',
     },
-    
+
     {
       name: 'Sanskar',
       role: 'Team Lead',
-      subdivision: 'Media'
+      subdivision: 'Media',
     },
 
     {
@@ -277,7 +255,7 @@ const teams = {
       role: 'Team Leader',
       subdivision: 'Electrical - Communication',
     },
-    
+
     {
       name: 'Dinesh Challagolla',
       role: 'Team Leader',
@@ -301,26 +279,17 @@ const teams = {
       role: 'Team Leader',
       subdivision: 'Electrical - ARM',
     },
-
     {
       name: 'Batchu B V Aashish',
       role: 'Team Leader',
       subdivision: 'Mechanical - ARM',
     },
-
-    {
-      name: 'Andrew Tom',
-      role: 'Team Leader',
-      subdivision: 'CS and AI',
-    },
-
     {
       name: 'Greeshma',
       role: 'Team Leader',
-      subdivision: "Science"
+      subdivision: 'Science',
     },
-
-  ]
+  ],
 };
 
 export default teams;
