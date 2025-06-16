@@ -59,16 +59,6 @@ const teams = {
     },
 
     {
-      name: 'H.S.Tarun',
-      subdivision: 'Electrical - Science',
-    },
-
-    {
-      name: 'Varsha Y',
-      subdivision: 'Electrical - Science',
-    },
-
-    {
       name: 'Bhargavi Paidi',
       role: 'Project Manager',
       subdivision: 'Electrical',
@@ -106,7 +96,7 @@ const teams = {
       subdivision: 'Mechanical',
     },
   ],
-  CS and AI: [
+  'CS and AI': [
     {
       name: 'Adithya Nair',
       subdivision: 'Automation',
