@@ -18,10 +18,6 @@ export const headerData = {
       text: 'Blog',
       href: '/blog',
     },
-    {
-      text: 'Sponsor',
-      href: '/sponsor',
-    },
   ],
 };
 

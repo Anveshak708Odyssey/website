@@ -1,6 +1,6 @@
 site:
   name: 'Team Odyssey'
-  site: 'https://astrowind.vercel.app'
+  site: 'https://anveshakrover.github.io/'
   base: '/'
   trailingSlash: false
 
@@ -18,14 +18,10 @@ metadata:
   openGraph:
     site_name: TeamOdyssey
     images:
-      - url: '~/assets/images/default.png'
-        width: 1200
-        height: 628
+      - url: '~/assets/images/og.png'
+        width: 1416
+        height: 801
     type: website
-  twitter:
-    handle: '@onwidget'
-    site: '@onwidget'
-    cardType: summary_large_image
 
 i18n:
   language: en
