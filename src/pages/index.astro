@@ -19,7 +19,7 @@ const metadata = {
         variant: 'primary',
         target: '_blank',
         text: 'Sponsor Us',
-        href: '#',
+        href: '#contact',
         icon: 'tabler:heart-handshake',
       },
       { text: 'Learn more', href: '/about' },
@@ -82,50 +82,20 @@ const metadata = {
   />
 
   <Features3
-    title="Reach out to us"
-    subtitle="We’re here to answer any question you might have."
+    title="Sponsor Us"
+    subtitle="Get in touch with us to discuss ways you can help fund our efforts."
     columns={4}
+    id="contact"
     items={[
       {},
       {
         title: 'Email Us',
         icon: 'tabler:mail',
-        callToAction: {
-          target: '_blank',
-          text: '',
-          href: 'mailto:rover_avvb@blr.amrita.edu',
-          variant: 'link',
-        },
       },
       {
         title: 'Connect With Us',
         icon: 'tabler:brand-linkedin',
-        callToAction: {
-          target: '_blank',
-          text: '',
-          href: '/',
-          variant: 'link',
-        },
       },
     ]}
   />
-
-  <CallToAction
-    actions={[
-      {
-        variant: 'primary',
-        target: '_blank',
-        text: 'Sponsor us',
-        href: 'https://github.com/onwidget/astrowind',
-        icon: 'tabler:heart-handshake',
-      },
-    ]}
-  >
-    <Fragment slot="">Be a part of our vision</Fragment>
-
-    <Fragment slot="subtitle">
-      Discover a dynamic work environment, unparalleled growth opportunities, and the chance to make a meaningful
-      impact.
-    </Fragment>
-  </CallToAction>
 </Layout>
